@@ -6,6 +6,7 @@ import profile_img from '../imgs/pic.jpg';
 
 import Info from "./Info";
 import Buttons from "./Buttons";
+import Background  from "./Background";
 export default function App () {
     return (
         <div class="background">
@@ -13,6 +14,10 @@ export default function App () {
                 <img src = {profile_img}alt = 'person'/> 
                 <Info/>
                 <Buttons/>
+                <Background/>
+                <footer>
+                    <p>Made By Adrian Rivera</p>
+                </footer>
             </div>
         </div>
     )

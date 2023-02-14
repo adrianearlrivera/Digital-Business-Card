@@ -49,8 +49,9 @@ COLOR PALETTE - https://www.color-hex.com/color-palette/1021793
 
 .btn-container {
     width: 100%;
-    height: 40px;
-    margin: 0;
+    height: 50px;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -63,9 +64,8 @@ button {
     margin: 0 5%;
     width: 40%;
     height: 100%;
-    border-radius: 10px;
-   
-    outline:black;
+    border-radius: 7.5px;
+    border: none;
 }
 
 .email-btn {
@@ -74,4 +74,32 @@ button {
 
 .LinkedIn-btn {
     background: white;
+}
+
+.background-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.background-container > h1 {
+    
+    font-size: 1.5em;
+}
+
+.background-container > p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #bbbbbb;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
 }
